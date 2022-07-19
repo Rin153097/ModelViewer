@@ -1,0 +1,9 @@
+# ignore unnecessarily folder
+.vs/
+cereal-master/
+DirectXTex-main/
+DirectXTK-master/
+imgui/
+x64/
+resources/
+!resources/CCL

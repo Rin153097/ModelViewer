@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5d2ed881-4062-49d0-a1ce-86240074d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL">
+      <UniqueIdentifier>{86cf0b07-5678-4369-b7b4-f52adc4ac8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\System">
+      <UniqueIdentifier>{dc924cd0-7a6c-4628-8fd3-d594f142ac30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\System\COMs">
+      <UniqueIdentifier>{eb0872fd-4932-4ed1-833f-80f91d0aec05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader">
+      <UniqueIdentifier>{c4c21ebc-6a35-4684-b274-e883f698a527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Primitive">
+      <UniqueIdentifier>{4cbb8769-e461-4aea-9eeb-520a64810496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\geometricPrimitive">
+      <UniqueIdentifier>{83908b1f-e6d5-4ca2-a358-4674703a3878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\sprite">
+      <UniqueIdentifier>{e5f3c05b-66d5-401a-8b19-ce10d4c329d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\staticMesh">
+      <UniqueIdentifier>{8ee68ebd-3560-4071-bf7c-d4271f8eddb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\StaticMesh">
+      <UniqueIdentifier>{24e7036a-f655-4d0d-b4b7-b87e77a389d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Camera">
+      <UniqueIdentifier>{d9ff119e-ba53-4b64-bef2-6e8bff9ede76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\UseImGui">
+      <UniqueIdentifier>{75df754d-b235-48a6-830e-3a5267d8a100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Template">
+      <UniqueIdentifier>{8e7907ad-ea9c-4396-a5f1-014487f09bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Light">
+      <UniqueIdentifier>{971286af-1bc9-4f3a-9585-d25cba7753c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\SkinnedMesh">
+      <UniqueIdentifier>{0bac2556-6fa2-4328-b043-3399c3b34b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\SkinnedMesh">
+      <UniqueIdentifier>{fc46e2bb-c649-42d9-a224-ce509b53c62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\System\SystemObject">
+      <UniqueIdentifier>{7baf29c3-9350-480b-8ef8-f8952fdffebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Scene">
+      <UniqueIdentifier>{2d868cfa-da81-4959-ac36-e3128eca56d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Input">
+      <UniqueIdentifier>{ee8a039f-561e-445f-935b-9302e8bd14fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Input\PrimitiveInput">
+      <UniqueIdentifier>{f230336e-610c-4bfc-bb6a-79fb379921e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\PrimitiveModel">
+      <UniqueIdentifier>{80326c1e-1be8-49c4-9a81-a080f784fff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\primitiveRect">
+      <UniqueIdentifier>{900ac77e-0726-4a1c-91a6-d841f4f2f6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelViewer">
+      <UniqueIdentifier>{5ffbbad5-e25a-4a7c-a194-ca9a70a62ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\TextManager">
+      <UniqueIdentifier>{4d7c296c-3fd7-4f17-831f-adfcbc0389ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Textures">
+      <UniqueIdentifier>{8c3696eb-acfc-4a34-b335-80c8125c97ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Template\OpenFileDialog">
+      <UniqueIdentifier>{8263940e-f2ed-4916-8624-e77cf65ccc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\FrameBuffer">
+      <UniqueIdentifier>{440e1ac4-9441-466a-9536-94031b91ab29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\fullScreenQuad">
+      <UniqueIdentifier>{0d976712-46d8-49c2-b00f-4ec9003da058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\FrameBuffer\FullScreenQuad">
+      <UniqueIdentifier>{20e69db8-d0c8-4be8-8b8e-f3e22534f2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\FrameBuffer\WindowQuad">
+      <UniqueIdentifier>{d0536f12-34ea-4900-bc80-169d465ab8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CCL\Shader\WindowQuad">
+      <UniqueIdentifier>{8b5797e7-7b7b-4a1b-b290-fe6a87d6c2d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_ja_gryph_ranges.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\sprite.cpp">
+      <Filter>CCL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\SpriteModule.cpp">
+      <Filter>CCL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\framework.cpp">
+      <Filter>CCL\System</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\main.cpp">
+      <Filter>CCL\System</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\Texture2d.cpp">
+      <Filter>CCL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\spriteBatch.cpp">
+      <Filter>CCL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\staticMesh.cpp">
+      <Filter>CCL\StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\GeometricPrimitives.cpp">
+      <Filter>CCL\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\Camera.cpp">
+      <Filter>CCL\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\UseImGui.cpp">
+      <Filter>CCL\UseImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\Template\Util.cpp">
+      <Filter>CCL\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\DirectionalLight.cpp">
+      <Filter>CCL\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\SkinnedMesh.cpp">
+      <Filter>CCL\SkinnedMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\RenderSystem.cpp">
+      <Filter>CCL\System\COMs</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\CCL.cpp">
+      <Filter>CCL\System\SystemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\InputPrimitive.cpp">
+      <Filter>CCL\Input\PrimitiveInput</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\PrimitiveModel.cpp">
+      <Filter>CCL\PrimitiveModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\Primitive2D.cpp">
+      <Filter>CCL\Primitive</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewer\ModelViewer.cpp">
+      <Filter>ModelViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\Template\OpenFileDialog.cpp">
+      <Filter>CCL\Template\OpenFileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\FrameBuffer.cpp">
+      <Filter>CCL\FrameBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\FullScreenQuad.cpp">
+      <Filter>CCL\FrameBuffer\FullScreenQuad</Filter>
+    </ClCompile>
+    <ClCompile Include="CCL\OffScreenWindow.cpp">
+      <Filter>CCL\FrameBuffer\WindowQuad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\sprite.h">
+      <Filter>CCL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\spriteBatch.h">
+      <Filter>CCL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\SpriteModule.h">
+      <Filter>CCL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\framework.h">
+      <Filter>CCL\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\high_resolution_timer.h">
+      <Filter>CCL\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\misc.h">
+      <Filter>CCL\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Texture2d.h">
+      <Filter>CCL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\staticMesh.h">
+      <Filter>CCL\StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\GeometricPrimitives.h">
+      <Filter>CCL\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Camera.h">
+      <Filter>CCL\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\UseImGui.h">
+      <Filter>CCL\UseImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Easing.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\inlines.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Math.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Singleton.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\UseVoidPointer.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Util.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Utils.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Vector.h">
+      <Filter>CCL\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\DirectionalLight.h">
+      <Filter>CCL\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\SkinnedMesh.h">
+      <Filter>CCL\SkinnedMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\FbxVectorConvert.h">
+      <Filter>CCL\SkinnedMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\RenderStates.h">
+      <Filter>CCL\System\COMs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\RenderSystem.h">
+      <Filter>CCL\System\COMs</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\CCL.h">
+      <Filter>CCL\System\SystemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\InputPrimitive.h">
+      <Filter>CCL\Input\PrimitiveInput</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\PrimitiveModel.h">
+      <Filter>CCL\PrimitiveModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Primitive2D.h">
+      <Filter>CCL\Primitive</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewer\ModelViewer.h">
+      <Filter>ModelViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\TextManager.h">
+      <Filter>CCL\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\Template\Vector.h" />
+    <ClInclude Include="CCL\Template\OpenFileDialog.h">
+      <Filter>CCL\Template\OpenFileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\FrameBuffer.h">
+      <Filter>CCL\FrameBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\FullScreenQuad.h">
+      <Filter>CCL\FrameBuffer\FullScreenQuad</Filter>
+    </ClInclude>
+    <ClInclude Include="CCL\OffScreenWindow.h">
+      <Filter>CCL\FrameBuffer\WindowQuad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CCL\staticMesh.hlsli">
+      <Filter>CCL\Shader\staticMesh</Filter>
+    </None>
+    <None Include="CCL\geometricPrimitive.hlsli">
+      <Filter>CCL\Shader\geometricPrimitive</Filter>
+    </None>
+    <None Include="CCL\Shader\skinnedMesh.hlsli">
+      <Filter>CCL\Shader\SkinnedMesh</Filter>
+    </None>
+    <None Include="CCL\primitiveRect.hlsli">
+      <Filter>CCL\Shader\primitiveRect</Filter>
+    </None>
+    <None Include="CCL\sprite.hlsli">
+      <Filter>CCL\Shader\sprite</Filter>
+    </None>
+    <None Include="CCL\fullScreenQuad.hlsli">
+      <Filter>CCL\Shader\fullScreenQuad</Filter>
+    </None>
+    <None Include="CCL\windowQuad.hlsli">
+      <Filter>CCL\Shader\WindowQuad</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="CCL\staticMeshPS.hlsl">
+      <Filter>CCL\Shader\staticMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\staticMeshVS.hlsl">
+      <Filter>CCL\Shader\staticMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\geometricPrimitivePS.hlsl">
+      <Filter>CCL\Shader\geometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\geometricPrimitiveVS.hlsl">
+      <Filter>CCL\Shader\geometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\Shader\skinnedMeshVS.hlsl">
+      <Filter>CCL\Shader\SkinnedMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\Shader\skinnedMeshPS.hlsl">
+      <Filter>CCL\Shader\SkinnedMesh</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\primitiveRectVS.hlsl">
+      <Filter>CCL\Shader\primitiveRect</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\primitiveRectPS.hlsl">
+      <Filter>CCL\Shader\primitiveRect</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\spriteVS.hlsl">
+      <Filter>CCL\Shader\sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\spritePS.hlsl">
+      <Filter>CCL\Shader\sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\fullScreenQuadPS.hlsl">
+      <Filter>CCL\Shader\fullScreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\fullScreenQuadVS.hlsl">
+      <Filter>CCL\Shader\fullScreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\luminanceExtractionPS.hlsl">
+      <Filter>CCL\Shader\fullScreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\BlurPS.hlsl">
+      <Filter>CCL\Shader\fullScreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\windowQuadVS.hlsl">
+      <Filter>CCL\Shader\WindowQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="CCL\windowQuadPS.hlsl">
+      <Filter>CCL\Shader\WindowQuad</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
